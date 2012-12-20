@@ -4,15 +4,15 @@ author:
   - 'HIROSE Masaaki <hirose31 _at_ gmail.com>'
 build_requires:
   Capture::Tiny: 0
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 6.36
   Path::Class: 0
   Test::More: 0.88
   Test::SharedFork: 0
   Test::TCP: 1.13
 configure_requires:
-  ExtUtils::MakeMaker: 6.42
+  ExtUtils::MakeMaker: 0
 dynamic_config: 0
-generated_by: 'Module::Install version 1.01, CPAN::Meta::Converter version 2.112150'
+generated_by: 'ExtUtils::MakeMaker version 6.64, CPAN::Meta::Converter version 2.120630'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -20,14 +20,10 @@ meta-spec:
 name: Fluent-Logger
 no_index:
   directory:
-    - inc
     - t
-    - xt
+    - inc
 requires:
   Data::MessagePack: 0.35_01
   Mouse: 0
   Time::Piece: 0
-resources:
-  license: http://dev.perl.org/licenses/
-  repository: https://github.com/fluent/fluent-logger-perl
-version: 0.03
+version: 0.08

@@ -26,4 +26,4 @@ requires:
   Data::MessagePack: 0.35_01
   Mouse: 0
   Time::Piece: 0
-version: 0.09
+version: 0.10

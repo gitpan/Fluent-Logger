@@ -14,7 +14,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.4.2, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Minilla/v0.14.1, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -29,10 +29,11 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Fluent::Logger:
     file: lib/Fluent/Logger.pm
-    version: 0.11
+    version: 0.12
 requires:
   Data::MessagePack: 0.35_01
   Mouse: 0
@@ -41,7 +42,7 @@ resources:
   bugtracker: https://github.com/fluent/fluent-logger-perl/issues
   homepage: https://github.com/fluent/fluent-logger-perl
   repository: git://github.com/fluent/fluent-logger-perl.git
-version: 0.11
+version: 0.12
 x_contributors:
   - 'HIROSE Masaaki <hirose31@gmail.com>'
   - 'Shinichiro Sei <sei@kayac.com>'
@@ -50,4 +51,5 @@ x_contributors:
   - 'tokuhirom <tokuhirom@gmail.com>'
   - 'cho45 <cho45@lowreal.net>'
   - 'Tomohiro Hosaka <bokutin@bokut.in>'
+  - 'Brian Fraser <fraserbn@gmail.com>'
   - 'FUJIWARA Shunichiro <fujiwara.shunichiro@gmail.com>'

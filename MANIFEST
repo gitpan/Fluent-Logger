@@ -5,6 +5,7 @@ META.json
 README.md
 cpanfile
 lib/Fluent/Logger.pm
+minil.toml
 t/00_compile.t
 t/01_new.t
 t/02_unix_socket.t
